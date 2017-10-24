@@ -27,13 +27,13 @@ pod 'SplashKit'
 
 ### Default Splash
 
-First add the key **environment** into you're **Info.plist**, check the [RuntimeEnvironment](https://github.com/Digipolitan/runtime-environment) repository.
+First add the key **environment** into your **Info.plist**, check the [RuntimeEnvironment](https://github.com/Digipolitan/runtime-environment) repository.
 
 ```xml
 <key>environment</key><string>staging</string>
 ```
 
-Then create you're splashscreen view (.xib) and make it inherit from **DefaultSplashScreenViewController** and set you're splashscreen actions on **AppDelegate.swift** like follow
+Then create your splashscreen view (.xib) and make it inherit from **DefaultSplashScreenViewController** and set your splashscreen actions on **AppDelegate.swift** like follow
 
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
