@@ -1,8 +1,8 @@
 //
-//  DefaultSplashViewController.swift
+//  TimerSplashViewController.swift
 //  SplashKit
 //
-//  Created by David Linhares on 24/10/2017.
+//  Created by David LINHARES on 24/10/2017.
 //  Copyright © 2017 Digipolitan. All rights reserved.
 //
 
@@ -14,7 +14,7 @@ public class TimerSplashViewController: SplashViewController {
         public static let duration: TimeInterval = 2
     }
 
-    private var timer: Timer!
+    private var timer: Timer?
     public var duration: TimeInterval = Consts.duration
 
     public init(duration: TimeInterval = Consts.duration, nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
