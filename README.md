@@ -1,13 +1,13 @@
-splash-kit
+SplashKit
 =================================
 
-[![Build Status](https://travis-ci.org/Digipolitan/dependency-injector.svg?branch=master)](https://travis-ci.org/Digipolitan/dependency-injector)
+[![Build Status](https://travis-ci.org/Digipolitan/dependency-injector.svg?branch=master)](https://travis-ci.org/Digipolitan/splash-kit)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/SplashKit.svg)](https://img.shields.io/cocoapods/v/SplashKit.svg)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/SplashKit.svg?style=flat)](http://cocoadocs.org/docsets/SplashKit)
 [![Twitter](https://img.shields.io/badge/twitter-@Digipolitan-blue.svg?style=flat)](http://twitter.com/Digipolitan)
 
-SplashKit Swift. Compatible for swift server-side and swift for iOS
+Customizable splash screen system wich can handle multiple splash navigation and display
 
 ## Installation
 
