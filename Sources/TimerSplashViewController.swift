@@ -26,12 +26,12 @@ open class TimerSplashViewController: SplashViewController {
         super.init(coder: aDecoder)
     }
 
-    public override func viewDidAppear(_ animated: Bool) {
+    open override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         self.timer = Timer.scheduledTimer(timeInterval: self.duration, target: self, selector: #selector(splashTimerDidFinish), userInfo: nil, repeats: false)
     }
 
-    public override func viewWillDisappear(_ animated: Bool) {
+    open override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         self.timer?.invalidate()
     }
