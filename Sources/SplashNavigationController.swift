@@ -58,9 +58,17 @@ public class SplashNavigationController: UINavigationController {
         super.viewDidLoad()
         self.isNavigationBarHidden = true
     }
+
+    public override var childViewControllerForStatusBarStyle: UIViewController? {
+        return self.visibleViewController
+    }
+
+    public override var childViewControllerForStatusBarHidden: UIViewController? {
+        return self.visibleViewController
+    }
 }
 
-public class SplashViewController: UIViewController {
+open class SplashViewController: UIViewController {
 
     public typealias Completion = (Bool) -> Void
 
