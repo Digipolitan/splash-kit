@@ -9,7 +9,7 @@
 import UIKit
 import RuntimeEnvironment
 
-public class DefaultSplashViewController: TimerSplashViewController {
+open class DefaultSplashViewController: TimerSplashViewController {
 
     @IBOutlet var environmentLabel: UILabel!
     @IBOutlet var versionLabel: UILabel!
