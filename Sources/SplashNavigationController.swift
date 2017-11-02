@@ -68,7 +68,7 @@ public class SplashNavigationController: UINavigationController {
     }
 }
 
-public class SplashViewController: UIViewController {
+open class SplashViewController: UIViewController {
 
     public typealias Completion = (Bool) -> Void
 

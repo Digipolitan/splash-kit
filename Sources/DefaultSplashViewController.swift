@@ -9,12 +9,12 @@
 import UIKit
 import RuntimeEnvironment
 
-public class DefaultSplashViewController: TimerSplashViewController {
+open class DefaultSplashViewController: TimerSplashViewController {
 
     @IBOutlet var environmentLabel: UILabel!
     @IBOutlet var versionLabel: UILabel!
 
-    public override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
         let infoDictionary = Bundle.main.infoDictionary
         var version = infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
