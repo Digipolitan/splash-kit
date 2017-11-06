@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		45048D315C2E59D951AF1E47 /* Pods_Frameworks_SplashKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF455632178F32302AA6DB23 /* Pods_Frameworks_SplashKit_iOS.framework */; };
 		4C90C9E6C15EA05901FA4BB7 /* Pods_Tests_SplashKitTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFD4BF988EE9824E4044415 /* Pods_Tests_SplashKitTests_iOS.framework */; };
-		7F0E5EEB1F9F5A9400215545 /* TimerSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA63BA41F9F5879006ABF4B /* TimerSplashViewController.swift */; };
-		7F0E5EEC1F9F5A9700215545 /* SplashNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA63BA61F9F587A006ABF4B /* SplashNavigationController.swift */; };
-		7F0E5EED1F9F5A9900215545 /* DefaultSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA63BA51F9F5879006ABF4B /* DefaultSplashViewController.swift */; };
-		7FA63BA71F9F587A006ABF4B /* TimerSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA63BA41F9F5879006ABF4B /* TimerSplashViewController.swift */; };
-		7FA63BA81F9F587A006ABF4B /* DefaultSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA63BA51F9F5879006ABF4B /* DefaultSplashViewController.swift */; };
-		7FA63BA91F9F587A006ABF4B /* SplashNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA63BA61F9F587A006ABF4B /* SplashNavigationController.swift */; };
 		9947823A04D8A039C71BB00D /* Pods_Frameworks_SplashKit_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77F8E072D82FC763B15A1675 /* Pods_Frameworks_SplashKit_tvOS.framework */; };
 		A3169DBA1DE05E8300BABAFD /* SplashKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* SplashKit.framework */; };
 		A3169DF81DE0718900BABAFD /* SplashKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* SplashKit.framework */; };
-		A3169E761DE083D900BABAFD /* SplashKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* SplashKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E781DE083D900BABAFD /* SplashKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* SplashKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF401FB0E797000FEDED /* DefaultSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF3C1FB0E797000FEDED /* DefaultSplashViewController.swift */; };
+		A370DF411FB0E797000FEDED /* DefaultSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF3C1FB0E797000FEDED /* DefaultSplashViewController.swift */; };
+		A370DF421FB0E797000FEDED /* TimerSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF3D1FB0E797000FEDED /* TimerSplashViewController.swift */; };
+		A370DF431FB0E797000FEDED /* TimerSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF3D1FB0E797000FEDED /* TimerSplashViewController.swift */; };
+		A370DF441FB0E797000FEDED /* SplashNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF3E1FB0E797000FEDED /* SplashNavigationController.swift */; };
+		A370DF451FB0E797000FEDED /* SplashNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A370DF3E1FB0E797000FEDED /* SplashNavigationController.swift */; };
+		A370DF461FB0E797000FEDED /* SplashKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF3F1FB0E797000FEDED /* SplashKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A370DF471FB0E797000FEDED /* SplashKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A370DF3F1FB0E797000FEDED /* SplashKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* SplashKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* SplashKitTests.swift */; };
 		A38EF2CB1DECF97000637484 /* SplashKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* SplashKitTests.swift */; };
 		EE32B4267A605948C3C633EA /* Pods_Tests_SplashKitTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAEC16EA0D677157C9935B9 /* Pods_Tests_SplashKitTests_tvOS.framework */; };
@@ -48,9 +48,6 @@
 		4EF91626EA640683DA4822F0 /* Pods-Frameworks-SplashKit-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-SplashKit-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-SplashKit-iOS/Pods-Frameworks-SplashKit-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		77F8E072D82FC763B15A1675 /* Pods_Frameworks_SplashKit_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_SplashKit_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CEFCE8E0AAC274CD21A1063 /* Pods-Tests-SplashKitTests-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SplashKitTests-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-SplashKitTests-iOS/Pods-Tests-SplashKitTests-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		7FA63BA41F9F5879006ABF4B /* TimerSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSplashViewController.swift; sourceTree = "<group>"; };
-		7FA63BA51F9F5879006ABF4B /* DefaultSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSplashViewController.swift; sourceTree = "<group>"; };
-		7FA63BA61F9F587A006ABF4B /* SplashNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashNavigationController.swift; sourceTree = "<group>"; };
 		8D8907835D013C9FAAB4B7D0 /* Pods-Tests-SplashKitTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SplashKitTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-SplashKitTests-iOS/Pods-Tests-SplashKitTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		962D336CD385CD533A09A27A /* Pods-Frameworks-SplashKit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-SplashKit-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-SplashKit-tvOS/Pods-Frameworks-SplashKit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		9F2BF11FB32B5FE6F73B67AE /* Pods-Frameworks-SplashKit-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-SplashKit-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-SplashKit-iOS/Pods-Frameworks-SplashKit-iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +60,10 @@
 		A3169DF71DE0718900BABAFD /* SplashKitTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplashKitTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* SplashKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SplashKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* SplashKitTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SplashKitTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3169E751DE083D900BABAFD /* SplashKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashKit.h; sourceTree = "<group>"; };
+		A370DF3C1FB0E797000FEDED /* DefaultSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSplashViewController.swift; sourceTree = "<group>"; };
+		A370DF3D1FB0E797000FEDED /* TimerSplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSplashViewController.swift; sourceTree = "<group>"; };
+		A370DF3E1FB0E797000FEDED /* SplashNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashNavigationController.swift; sourceTree = "<group>"; };
+		A370DF3F1FB0E797000FEDED /* SplashKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashKit.h; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* SplashKitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashKitTests.swift; sourceTree = "<group>"; };
 		B21D3146C07FE359AB2F5984 /* Pods-Tests-SplashKitTests-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-SplashKitTests-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-SplashKitTests-tvOS/Pods-Tests-SplashKitTests-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		BFAEC16EA0D677157C9935B9 /* Pods_Tests_SplashKitTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_SplashKitTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,10 +163,7 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				7FA63BA51F9F5879006ABF4B /* DefaultSplashViewController.swift */,
-				7FA63BA61F9F587A006ABF4B /* SplashNavigationController.swift */,
-				7FA63BA41F9F5879006ABF4B /* TimerSplashViewController.swift */,
-				A3169E751DE083D900BABAFD /* SplashKit.h */,
+				A370DF3B1FB0E797000FEDED /* SplashKit */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
 			);
 			path = Sources;
@@ -179,6 +176,17 @@
 				A3169DD11DE062A000BABAFD /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A370DF3B1FB0E797000FEDED /* SplashKit */ = {
+			isa = PBXGroup;
+			children = (
+				A370DF3C1FB0E797000FEDED /* DefaultSplashViewController.swift */,
+				A370DF3D1FB0E797000FEDED /* TimerSplashViewController.swift */,
+				A370DF3E1FB0E797000FEDED /* SplashNavigationController.swift */,
+				A370DF3F1FB0E797000FEDED /* SplashKit.h */,
+			);
+			path = SplashKit;
 			sourceTree = "<group>";
 		};
 		A38EF2C61DECF97000637484 /* SplashKitTests */ = {
@@ -196,7 +204,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E781DE083D900BABAFD /* SplashKit.h in Headers */,
+				A370DF471FB0E797000FEDED /* SplashKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +212,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E761DE083D900BABAFD /* SplashKit.h in Headers */,
+				A370DF461FB0E797000FEDED /* SplashKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,9 +593,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA63BA91F9F587A006ABF4B /* SplashNavigationController.swift in Sources */,
-				7FA63BA81F9F587A006ABF4B /* DefaultSplashViewController.swift in Sources */,
-				7FA63BA71F9F587A006ABF4B /* TimerSplashViewController.swift in Sources */,
+				A370DF441FB0E797000FEDED /* SplashNavigationController.swift in Sources */,
+				A370DF401FB0E797000FEDED /* DefaultSplashViewController.swift in Sources */,
+				A370DF421FB0E797000FEDED /* TimerSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,9 +611,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F0E5EEC1F9F5A9700215545 /* SplashNavigationController.swift in Sources */,
-				7F0E5EED1F9F5A9900215545 /* DefaultSplashViewController.swift in Sources */,
-				7F0E5EEB1F9F5A9400215545 /* TimerSplashViewController.swift in Sources */,
+				A370DF451FB0E797000FEDED /* SplashNavigationController.swift in Sources */,
+				A370DF411FB0E797000FEDED /* DefaultSplashViewController.swift in Sources */,
+				A370DF431FB0E797000FEDED /* TimerSplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,6 +796,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D8907835D013C9FAAB4B7D0 /* Pods-Tests-SplashKitTests-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -801,6 +810,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CEFCE8E0AAC274CD21A1063 /* Pods-Tests-SplashKitTests-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
