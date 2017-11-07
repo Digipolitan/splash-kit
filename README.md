@@ -18,11 +18,30 @@ To install SplashKit with CocoaPods, add the following lines to your `Podfile`.
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '8.0' # or platform :osx, '10.10' if your target is OS X.
+platform :ios, '9.0'
 use_frameworks!
 
 pod 'SplashKit'
 ```
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
+
+```bash
+$ brew update
+$ brew install carthage
+```
+
+To integrate SplashKit into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```
+github 'Digipolitan/splash-kit ~> 1.0
+```
+
+Run `carthage update` to build the framework and drag the built `SplashKit.framework` into your Xcode project.
 
 ## The Basics
 
