@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.3](https://github.com/Digipolitan/splash-kit/releases/tag/v1.0.3)
+
+update to swift 4.2
+
+---
+
 ## [1.0.2](https://github.com/Digipolitan/splash-kit/releases/tag/v1.0.2)
 
 add swift version
