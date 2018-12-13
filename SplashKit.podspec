@@ -9,6 +9,6 @@ s.license = { :type => "BSD", :file => "LICENSE" }
 s.source_files = 'Sources/**/*.{swift,h}'
 s.ios.deployment_target = '8.0'
 s.tvos.deployment_target = '9.0'
-s.requires_arc = true
+s.swift_version = '4.2'
 s.dependency 'RuntimeEnvironment', '~> 1.0'
 end

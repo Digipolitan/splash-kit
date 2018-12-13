@@ -60,11 +60,11 @@ public class SplashNavigationController: UINavigationController {
     }
 
     #if os(iOS)
-    public override var childViewControllerForStatusBarStyle: UIViewController? {
+    public override var childForStatusBarStyle: UIViewController? {
         return self.visibleViewController
     }
 
-    public override var childViewControllerForStatusBarHidden: UIViewController? {
+    public override var childForStatusBarHidden: UIViewController? {
         return self.visibleViewController
     }
     #endif
