@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "SplashKit"
-s.version = "1.0.2"
+s.version = "1.0.3"
 s.summary = "Customizable splash screen system wich can handle multiple splash navigation and display"
 s.homepage = "https://github.com/Digipolitan/splash-kit"
 s.authors = "Digipolitan"
